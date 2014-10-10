@@ -1,7 +1,7 @@
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
-package = "mjolnir._asm.sys.audiodevice"
+package = "mjolnir._asm.sys.mouse"
 
 -- `version` has two parts, your module's version (0.1) and the
 --    rockspec's version (1) in case you change metadata without
@@ -13,9 +13,9 @@ version = "0.1-1"
 -- General metadata:
 
 local url = "github.com/asmagill/mjolnir_asm.sys"
-local desc = "Manipulate the system's audio devices."
+local desc = "Functions for getting and setting the position of the mouse pointer."
 
-source = {url = "git://" .. url, dir = "mjolnir_asm.sys/audiodevice/"}
+source = {url = "git://" .. url, dir = "mjolnir_asm.sys/mouse/"}
 description = {
   summary = desc,
   detailed = desc,
@@ -35,7 +35,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["mjolnir._asm.sys.audiodevice"] = "init.lua",
-    ["mjolnir._asm.sys.audiodevice.internal"] = "internal.m",
+    ["mjolnir._asm.sys.mouse"] = "init.lua",
+    ["mjolnir._asm.sys.mouse.internal"] = "internal.m",
   },
 }
