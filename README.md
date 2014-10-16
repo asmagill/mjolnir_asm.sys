@@ -11,6 +11,7 @@ The following submodules are located in this repository for organizational purpo
 |mjolnir._asm.sys.audiodevice  | Luarocks  | Manipulate the system's audio devices.                      |
 |mjolnir._asm.sys.battery      | Luarocks  | Functions for getting battery info.                         |
 |mjolnir._asm.sys.brightness   | Luarocks  | Functions for manipulating display brightness.              |
+|mjolnir._asm.mouse            | Luarocks  | Mouse position control as provided in Hydra.                |
 |mjolnir._asm.settings         | Luarocks  | Functions for persistent data in Mjolnir via User Defaults. |
 
 **NOTE: README's for in progress modules may mention luarocks, but may or may not actually be there.  Be patient, or check the README file for how to compile them yourself.**
